@@ -17,3 +17,24 @@ Data files and figures are saved in the Output-Data file.
     - figure of the data set latitude vs. longitude
 
 ## VacationPy
+
+Based on the locations found in WeatherPy, this file assists in finding locations that meet specific vacation criteria and hotels within that area.
+
+Vacation weather criteria:
+- Between 70-80 degrees F
+- Wind speed < 10 mph
+- 0% cloudiness
+
+Hotel criteria:
+- Within 5000 meter radius
+- Google API must return results for keyword and type "hotel"
+
+## Notes:
+
+OpenWeatherMap and Google Maps API keys are required to run these notebooks.
+Please save your API keys in a python file named "api_keys.py". Below is the text that should go into this file, fill in the areas that say "YOUR KEY HERE" with the appropriate API keys for each application.
+
+#OpenWeatherMap API Key
+weather_api_key = "YOUR KEY HERE!"
+#Google API Key
+g_key = "YOUR KEY HERE!"
