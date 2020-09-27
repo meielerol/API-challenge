@@ -33,7 +33,7 @@ Hotel criteria:
 
 OpenWeatherMap and Google Maps API keys are required to run these notebooks.
 
-Please save your API keys in a python file named "api_keys.py". Below is the text that should go into this file, fill in the areas that say "YOUR KEY HERE" with the appropriate API keys for each application.
+Please save your API keys in a python file named "api_keys.py". Below is the text that should go into this file, fill in the areas that say "YOUR KEY HERE!" with the appropriate API keys for each application.
 
 #OpenWeatherMap API Key
 
